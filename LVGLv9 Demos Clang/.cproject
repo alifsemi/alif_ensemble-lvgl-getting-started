@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.arm.eclipse.build.config.v6.exe.debug.base.var.arm_compiler_6-6.1090780285">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.arm.eclipse.build.config.v6.exe.debug.base.var.arm_compiler_6-6.1090780285" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.arm.eclipse.builder.armcc.error" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="axf" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="clean" description="" errorParsers="org.eclipse.cdt.core.GmakeErrorParser;com.arm.eclipse.builder.armcc.error;org.eclipse.cdt.core.CWDLocator" id="com.arm.eclipse.build.config.v6.exe.debug.base.var.arm_compiler_6-6.1090780285" name="Debug" parent="com.arm.eclipse.build.config.v6.exe.debug.base.var.arm_compiler_6-6">
+					<folderInfo id="com.arm.eclipse.build.config.v6.exe.debug.base.var.arm_compiler_6-6.1090780285." name="/" resourcePath="">
+						<toolChain id="com.arm.toolchain.v6.exe.debug.base.var.arm_compiler_6-6.953718700" name="Arm Compiler 6" superClass="com.arm.toolchain.v6.exe.debug.base.var.arm_compiler_6-6">
+							<option defaultValue="com.arm.tool.c.compiler.v6.base.options.debug.level.std" id="com.arm.toolchain.v6.base.options.debug.level.902700900" name="Debug Level" superClass="com.arm.toolchain.v6.base.options.debug.level" useByScannerDiscovery="false" valueType="enumerated"/>
+							<option id="com.arm.toolchain.v6.base.options.target.cpu_fpu.1143987248" superClass="com.arm.toolchain.v6.base.options.target.cpu_fpu" useByScannerDiscovery="false" value="Cortex-M55.MVEF.FP16.FP32.FP64" valueType="string"/>
+							<option id="com.arm.toolchain.v6.base.options.floatabi.73016150" name="Float ABI" superClass="com.arm.toolchain.v6.base.options.floatabi" useByScannerDiscovery="false" value="com.arm.tool.c.compiler.v6.base.option.floatabi.hard" valueType="enumerated"/>
+							<option id="com.arm.toolchain.v6.base.options.endian.368190145" name="Byte order" superClass="com.arm.toolchain.v6.base.options.endian" useByScannerDiscovery="false" value="com.arm.tool.c.compiler.v6.base.option.endian.little" valueType="enumerated"/>
+							<option id="com.arm.toolchain.v6.base.options.inst.384442661" name="Instruction set" superClass="com.arm.toolchain.v6.base.options.inst" useByScannerDiscovery="false" value="com.arm.tool.c.compiler.v6.base.option.inst.thumb" valueType="enumerated"/>
+							<option id="com.arm.toolchain.v6.base.option.secure.mode.1787698085" name="Secure Code" superClass="com.arm.toolchain.v6.base.option.secure.mode" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+							<option id="com.arm.toolchain.v6.base.option.vector.988732613" name="Vectorization" superClass="com.arm.toolchain.v6.base.option.vector" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+							<targetPlatform binaryParser="" id="com.arm.eclipse.build.config.v6.exe.debug.base.var.arm_compiler_6-6.1090780285..1571422877" name=""/>
+							<builder buildPath="${workspace_loc:/LVGLv8 Demos Clang}/Debug" id="com.arm.toolchain.v6.builder.1782571015" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="unlimited" superClass="com.arm.toolchain.v6.builder"/>
+							<tool id="com.arm.tool.c.compiler.v6.base.var.arm_compiler_6-6.281925671" name="Arm C Compiler 6" superClass="com.arm.tool.c.compiler.v6.base.var.arm_compiler_6-6">
+								<option defaultValue="com.arm.tool.c.compiler.v6.base.option.optlevel.min" id="com.arm.tool.c.compiler.v6.base.option.optlevel.1205647279" name="Optimization level" superClass="com.arm.tool.c.compiler.v6.base.option.optlevel" useByScannerDiscovery="true" value="com.arm.tool.c.compiler.v6.base.option.optlevel.fast" valueType="enumerated"/>
+								<option defaultValue="com.arm.tool.c.compiler.v6.base.options.debug.level.std" id="com.arm.tool.c.compiler.v6.base.options.debug.level.1352432755" name="Debug Level" superClass="com.arm.tool.c.compiler.v6.base.options.debug.level" useByScannerDiscovery="true" valueType="enumerated"/>
+								<option id="com.arm.tool.c.compiler.v6.base.option.cpu.1305799627" name="CPU (-mcpu)" superClass="com.arm.tool.c.compiler.v6.base.option.cpu" useByScannerDiscovery="true" value="cortex-m55" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.v6.base.option.target.2002511484" name="Target (--target)" superClass="com.arm.tool.c.compiler.v6.base.option.target" useByScannerDiscovery="true" value="arm-arm-none-eabi" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.v6.base.option.floatabi.240818590" name="Float ABI (-mfloat-abi)" superClass="com.arm.tool.c.compiler.v6.base.option.floatabi" useByScannerDiscovery="true" value="com.arm.tool.c.compiler.v6.base.option.floatabi.hard" valueType="enumerated"/>
+								<option id="com.arm.tool.c.compiler.v6.base.option.endian.1449678694" name="Byte order" superClass="com.arm.tool.c.compiler.v6.base.option.endian" useByScannerDiscovery="true" value="com.arm.tool.c.compiler.v6.base.option.endian.little" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.c.compiler.v6.base.option.implicit.defmac.1182966659" name="Implicit Define macros" superClass="com.arm.tool.c.compiler.v6.base.option.implicit.defmac" useByScannerDiscovery="true" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="_RTE_"/>
+									<listOptionValue builtIn="false" value="M55_HP"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.c.compiler.v6.base.option.implicit.incpath.1851488684" name="Implicit Include paths" superClass="com.arm.tool.c.compiler.v6.base.option.implicit.incpath" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ARM/Arm-2D/1.1.0/Library/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ARM/CMSIS-DSP/1.14.3/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ARM/CMSIS-DSP/1.14.3/PrivateInclude&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ARM/CMSIS/5.9.0/CMSIS/Core/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/AlifSemiconductor/Ensemble/0.5.2/Alif_CMSIS/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/AlifSemiconductor/Ensemble/0.5.2/Alif_CMSIS/Source&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/AlifSemiconductor/Ensemble/0.5.2/Boards/DevKit-e7/Templates/Baremetal/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/AlifSemiconductor/Ensemble/0.5.2/Boards/DevKit-e7/Templates/lwip/httpd&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/AlifSemiconductor/Ensemble/0.5.2/Device/M55_HP/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/LVGL/lvgl/1.1.0-alpha&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/LVGL/lvgl/1.1.0-alpha/demos/benchmark&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Device/AE722F80F55D5AE_M55_HP&quot;"/>
+								</option>
+								<option id="com.arm.tool.c.compiler.v6.base.option.lang.1410356173" name="Source language mode" superClass="com.arm.tool.c.compiler.v6.base.option.lang" useByScannerDiscovery="true" value="com.arm.tool.c.compiler.v6.base.option.lang.gnu11" valueType="enumerated"/>
+								<option id="com.arm.tool.c.compiler.v6.base.option.shortEnumsWchar.1600370301" name="Short enums/wchar (-fshort-enums -fshort-wchar)" superClass="com.arm.tool.c.compiler.v6.base.option.shortEnumsWchar" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.c.compiler.v6.base.option.preinc.1398068187" name="Preinclude (-include)" superClass="com.arm.tool.c.compiler.v6.base.option.preinc" useByScannerDiscovery="false" valueType="includeFiles">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Acceleration/arm_2d_cfg.h&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/LVGL/lv_conf_cmsis.h&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Pre_Include_Global.h&quot;"/>
+								</option>
+								<option id="com.arm.tool.c.compiler.v6.base.option.inst.1912719786" name="Instruction set" superClass="com.arm.tool.c.compiler.v6.base.option.inst" useByScannerDiscovery="true" value="com.arm.tool.c.compiler.v6.base.option.inst.thumb" valueType="enumerated"/>
+								<option id="com.arm.tool.c.compiler.v6.base.option.secure.mode.889464105" name="Secure Code (-mcmse)" superClass="com.arm.tool.c.compiler.v6.base.option.secure.mode" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="com.arm.tool.c.compiler.v6.base.option.incpath.1941550772" name="Include path (-I)" superClass="com.arm.tool.c.compiler.v6.base.option.incpath" useByScannerDiscovery="false" valueType="includePath"/>
+								<option id="com.arm.tool.c.compiler.v6.base.option.vector.15181839" name="Vectorization (-fvectorize)" superClass="com.arm.tool.c.compiler.v6.base.option.vector" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<inputType id="com.arm.tool.c.compiler.v6.base.input.1188500836" superClass="com.arm.tool.c.compiler.v6.base.input"/>
+							</tool>
+							<tool id="com.arm.tool.cpp.compiler.v6.base.var.arm_compiler_6-6.1765607429" name="Arm C++ Compiler 6" superClass="com.arm.tool.cpp.compiler.v6.base.var.arm_compiler_6-6">
+								<option defaultValue="com.arm.tool.c.compiler.v6.base.option.optlevel.min" id="com.arm.tool.c.compiler.v6.base.option.optlevel.1249071576" name="Optimization level" superClass="com.arm.tool.c.compiler.v6.base.option.optlevel" useByScannerDiscovery="true" valueType="enumerated"/>
+								<option defaultValue="com.arm.tool.c.compiler.v6.base.options.debug.level.std" id="com.arm.tool.c.compiler.v6.base.options.debug.level.403015115" name="Debug Level" superClass="com.arm.tool.c.compiler.v6.base.options.debug.level" useByScannerDiscovery="true" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.c.compiler.v6.base.option.implicit.defmac.2096996627" name="Implicit Define macros" superClass="com.arm.tool.c.compiler.v6.base.option.implicit.defmac" useByScannerDiscovery="true" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="_RTE_"/>
+									<listOptionValue builtIn="false" value="M55_HP"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.c.compiler.v6.base.option.implicit.incpath.1923017451" name="Implicit Include paths" superClass="com.arm.tool.c.compiler.v6.base.option.implicit.incpath" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ARM/Arm-2D/1.1.0/Library/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ARM/CMSIS-DSP/1.14.3/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ARM/CMSIS-DSP/1.14.3/PrivateInclude&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ARM/CMSIS/5.9.0/CMSIS/Core/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/AlifSemiconductor/Ensemble/0.5.2/Alif_CMSIS/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/AlifSemiconductor/Ensemble/0.5.2/Alif_CMSIS/Source&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/AlifSemiconductor/Ensemble/0.5.2/Boards/DevKit-e7/Templates/Baremetal/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/AlifSemiconductor/Ensemble/0.5.2/Boards/DevKit-e7/Templates/lwip/httpd&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/AlifSemiconductor/Ensemble/0.5.2/Device/M55_HP/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/LVGL/lvgl/1.1.0-alpha&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/LVGL/lvgl/1.1.0-alpha/demos/benchmark&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Device/AE722F80F55D5AE_M55_HP&quot;"/>
+								</option>
+								<option id="com.arm.tool.c.compiler.v6.base.option.shortEnumsWchar.513019576" name="Short enums/wchar (-fshort-enums -fshort-wchar)" superClass="com.arm.tool.c.compiler.v6.base.option.shortEnumsWchar" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.c.compiler.v6.base.option.preinc.1592728321" name="Preinclude (-include)" superClass="com.arm.tool.c.compiler.v6.base.option.preinc" useByScannerDiscovery="false" valueType="includeFiles">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Acceleration/arm_2d_cfg.h&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/LVGL/lv_conf_cmsis.h&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Pre_Include_Global.h&quot;"/>
+								</option>
+							</tool>
+							<tool id="com.arm.tool.assembler.v6.base.var.arm_compiler_6-6.1105079046" name="Arm Assembler 6" superClass="com.arm.tool.assembler.v6.base.var.arm_compiler_6-6">
+								<option defaultValue="com.arm.tool.assembler.v6.base.options.debug.level.std" id="com.arm.tool.assembler.v6.base.options.debug.level.788794781" name="Debug Level" superClass="com.arm.tool.assembler.v6.base.options.debug.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="com.arm.tool.assembler.v6.base.option.cpu.832325476" name="CPU (-mcpu)" superClass="com.arm.tool.assembler.v6.base.option.cpu" useByScannerDiscovery="false" value="cortex-m55" valueType="string"/>
+								<option id="com.arm.tool.assembler.v6.base.option.target.509014877" name="Target (--target)" superClass="com.arm.tool.assembler.v6.base.option.target" useByScannerDiscovery="false" value="arm-arm-none-eabi" valueType="string"/>
+								<option id="com.arm.tool.assembler.v6.base.option.floatabi.22837143" name="Float ABI (-mfloat-abi)" superClass="com.arm.tool.assembler.v6.base.option.floatabi" useByScannerDiscovery="true" value="com.arm.tool.c.compiler.v6.base.option.floatabi.hard" valueType="enumerated"/>
+								<option id="com.arm.tool.assembler.v6.base.option.endian.1508434338" name="Byte order" superClass="com.arm.tool.assembler.v6.base.option.endian" useByScannerDiscovery="true" value="com.arm.tool.c.compiler.v6.base.option.endian.little" valueType="enumerated"/>
+								<option id="com.arm.tool.assembler.v6.base.option.force.preproc.1400191031" name="Preprocess input files (-x assembler-with-cpp)" superClass="com.arm.tool.assembler.v6.base.option.force.preproc" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.assembler.v6.base.option.implicit.defmac.214004150" name="Implicit Define macros" superClass="com.arm.tool.assembler.v6.base.option.implicit.defmac" useByScannerDiscovery="true" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="_RTE_"/>
+									<listOptionValue builtIn="false" value="M55_HP"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.assembler.v6.base.option.implicit.incpath.1256868448" name="Implicit Include paths" superClass="com.arm.tool.assembler.v6.base.option.implicit.incpath" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ARM/Arm-2D/1.1.0/Library/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ARM/CMSIS-DSP/1.14.3/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ARM/CMSIS-DSP/1.14.3/PrivateInclude&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ARM/CMSIS/5.9.0/CMSIS/Core/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/AlifSemiconductor/Ensemble/0.5.2/Alif_CMSIS/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/AlifSemiconductor/Ensemble/0.5.2/Alif_CMSIS/Source&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/AlifSemiconductor/Ensemble/0.5.2/Boards/DevKit-e7/Templates/Baremetal/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/AlifSemiconductor/Ensemble/0.5.2/Boards/DevKit-e7/Templates/lwip/httpd&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/AlifSemiconductor/Ensemble/0.5.2/Device/M55_HP/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/LVGL/lvgl/1.1.0-alpha&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/LVGL/lvgl/1.1.0-alpha/demos/benchmark&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Device/AE722F80F55D5AE_M55_HP&quot;"/>
+								</option>
+								<option id="com.arm.tool.assembler.v6.base.option.masm.304433240" name="Assembler syntax (-masm)" superClass="com.arm.tool.assembler.v6.base.option.masm" useByScannerDiscovery="false" value="masm.val.auto" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.assembler.v6.base.option.preinc.2013792140" name="Preinclude (-include)" superClass="com.arm.tool.assembler.v6.base.option.preinc" useByScannerDiscovery="false" valueType="includeFiles">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Acceleration/arm_2d_cfg.h&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/LVGL/lv_conf_cmsis.h&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Pre_Include_Global.h&quot;"/>
+								</option>
+								<option id="com.arm.tool.assembler.v6.base.option.inst.963836686" name="Instruction set" superClass="com.arm.tool.assembler.v6.base.option.inst" useByScannerDiscovery="true" value="com.arm.tool.c.compiler.v6.base.option.inst.thumb" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="com.arm.tool.assembler.v6.base.option.incpath.2084287302" name="Include path (-I)" superClass="com.arm.tool.assembler.v6.base.option.incpath" useByScannerDiscovery="false" valueType="includePath"/>
+								<inputType id="com.arm.tool.assembler.v6.base.input.1411505085" superClass="com.arm.tool.assembler.v6.base.input"/>
+							</tool>
+							<tool id="com.arm.tool.c.linker.v6.base.var.arm_compiler_6-6.1266021437" name="Arm Linker 6" superClass="com.arm.tool.c.linker.v6.base.var.arm_compiler_6-6">
+								<option id="com.arm.tool.c.linker.option.entry.1001927277" name="Image entry point (--entry)" superClass="com.arm.tool.c.linker.option.entry" useByScannerDiscovery="false" value="Reset_Handler" valueType="string"/>
+								<option id="com.arm.tool.c.linker.option.scatter.248102725" name="Scatter file (--scatter)" superClass="com.arm.tool.c.linker.option.scatter" useByScannerDiscovery="false" value="${workspace_loc:/${ProjName}}/RTE/Device/AE722F80F55D5AE_M55_HP/M55_HP.sct" valueType="string"/>
+								<option id="com.arm.tool.c.linker.option.imagemap.1659493713" name="Generate image map (--map)" superClass="com.arm.tool.c.linker.option.imagemap" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.linker.v6.option.optimization.lto.1220000" name="Link time optimization" superClass="com.arm.tool.linker.v6.option.optimization.lto" useByScannerDiscovery="false" value="lto.value.default" valueType="enumerated"/>
+								<option id="com.arm.tool.c.linker.option.totals.2065271031" name="List total code and data sizes of output image (--info=totals)" superClass="com.arm.tool.c.linker.option.totals" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.linker.option.sizes.103022700" name="List code and data sizes of output image (--info=sizes)" superClass="com.arm.tool.c.linker.option.sizes" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+							</tool>
+							<tool id="com.arm.tool.librarian.v6.base.var.arm_compiler_6-6.1650101171" name="Arm Librarian 6" superClass="com.arm.tool.librarian.v6.base.var.arm_compiler_6-6"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="RTE/Device/AE722F80F55D5AE_M55_HE/tgu_M55_HE.c|RTE/Device/AE722F80F55D5AE_M55_HE/system_utils.c|RTE/Device/AE722F80F55D5AE_M55_HE/system_M55_HE.c|RTE/Device/AE722F80F55D5AE_M55_HE/startup_M55_HE.c|RTE/Device/AE722F80F55D5AE_M55_HE/partition_M55_HE.h|RTE/Device/AE722F80F55D5AE_M55_HE/mpu_M55_HE.c|RTE/Device/AE722F80F55D5AE_M55_HE/global_map.h|RTE/Device/AE722F80F55D5AE_M55_HE/app_map.h|RTE/Device/AE722F80F55D5AE_M55_HE/RTE_Device.h|RTE/Device/AE722F80F55D5AE_M55_HE/M55_HE_map.h|RTE/Device/AE722F80F55D5AE_M55_HE/M55_HE.sct" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="LVGLv8 Demos Clang.com.arm.eclipse.build.project.v6.exe.base.var.arm_compiler_6-6.1359822833" name="Executable" projectType="com.arm.eclipse.build.project.v6.exe.base.var.arm_compiler_6-6"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="com.arm.projectSettings" version="6.0.0"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/LVGLv9 Demos Clang"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="com.arm.cmsis.project">
+		<rteConfig name="LVGLv9 Demos Clang.rteconfig"/>
+		<toolChainAdapter id="com.arm.cmsis.pack.build.armcc5.Armcc5ToolChainAdapter" name="Adapter for ARM C/C++ 5.x and 6.x toolchains"/>
+		<device Dclock="400000000" Dcore="Cortex-M55" DcoreVersion="r1p0" Ddsp="DSP" Dendian="Little-endian" Dfamily="Ensemble" Dfpu="DP_FPU" Dmpu="MPU" Dmve="FP_MVE" Dname="AE722F80F55D5AE" Dsecure="Secure" DsubFamily="E7" Dtz="TZ" Dvendor="Alif Semiconductor:165" Pname="M55_HP" info="ARM , 13824 KB RAM, 5632 KB ROM" url="https://www.keil.com/dd2/alifsemiconductor/ae722f80f55d5ae"/>
+		<files>
+			<file name="RTE/Acceleration/arm_2d.c" version="1.0.3"/>
+			<file name="RTE/Acceleration/arm_2d_cfg.h" version="1.1.2"/>
+			<file name="RTE/Acceleration/img2c.py" version="1.2.1"/>
+			<file name="RTE/Acceleration/README.md" version="1.2.1"/>
+			<file name="RTE/Device/AE722F80F55D5AE_M55_HE/app_map.h" version="1.0.0"/>
+			<file name="RTE/Device/AE722F80F55D5AE_M55_HE/global_map.h" version="1.0.0"/>
+			<file name="RTE/Device/AE722F80F55D5AE_M55_HE/M55_HE.sct" version="1.0.0"/>
+			<file name="RTE/Device/AE722F80F55D5AE_M55_HE/M55_HE_map.h" version="1.0.0"/>
+			<file name="RTE/Device/AE722F80F55D5AE_M55_HE/mpu_M55_HE.c" version="1.0.0"/>
+			<file name="RTE/Device/AE722F80F55D5AE_M55_HE/partition_M55_HE.h" version="1.0.0"/>
+			<file name="RTE/Device/AE722F80F55D5AE_M55_HE/RTE_Device.h" version="1.0.0"/>
+			<file name="RTE/Device/AE722F80F55D5AE_M55_HE/startup_M55_HE.c" version="1.0.0"/>
+			<file name="RTE/Device/AE722F80F55D5AE_M55_HE/system_M55_HE.c" version="1.0.0"/>
+			<file name="RTE/Device/AE722F80F55D5AE_M55_HE/system_utils.c" version="1.0.0"/>
+			<file name="RTE/Device/AE722F80F55D5AE_M55_HE/tgu_M55_HE.c" version="1.0.0"/>
+			<file name="RTE/Device/AE722F80F55D5AE_M55_HP/app_map.h" version="1.0.0"/>
+			<file name="RTE/Device/AE722F80F55D5AE_M55_HP/global_map.h" version="1.0.0"/>
+			<file name="RTE/Device/AE722F80F55D5AE_M55_HP/M55_HP.sct" version="1.0.0"/>
+			<file name="RTE/Device/AE722F80F55D5AE_M55_HP/M55_HP_map.h" version="1.0.0"/>
+			<file name="RTE/Device/AE722F80F55D5AE_M55_HP/mpu_M55_HP.c" version="1.0.0"/>
+			<file name="RTE/Device/AE722F80F55D5AE_M55_HP/partition_M55_HP.h" version="1.0.0"/>
+			<file name="RTE/Device/AE722F80F55D5AE_M55_HP/RTE_Device.h" version="1.0.0"/>
+			<file name="RTE/Device/AE722F80F55D5AE_M55_HP/startup_M55_HP.c" version="1.0.0"/>
+			<file name="RTE/Device/AE722F80F55D5AE_M55_HP/system_M55_HP.c" version="1.0.0"/>
+			<file name="RTE/Device/AE722F80F55D5AE_M55_HP/system_utils.c" version="1.0.0"/>
+			<file name="RTE/Device/AE722F80F55D5AE_M55_HP/tgu_M55_HP.c" version="1.0.0"/>
+			<file name="RTE/LVGL/lv_cmsis_pack.c" version="1.0.0"/>
+			<file name="RTE/LVGL/lv_conf_cmsis.h" version="1.1.7"/>
+		</files>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cproject>
